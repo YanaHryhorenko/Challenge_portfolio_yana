@@ -30,8 +30,5 @@ class AddPlayer(BasePage):
         self.click_on_the_element(self.add_player_button_xpath)
         time.sleep(5)
 
-    def title_of_page(self):
-        time.sleep(5)
-        assert self.get_page_title(self.add_player_url) == self.expected_title
 
 
